@@ -1,0 +1,68 @@
+site_name: MatrixOne Docs
+repo_name: matrixorigin/matrixone
+repo_url: https://github.com/matrixorigin/matrixone
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.instant  
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    scheme: mo
+  font:
+    text: Ubuntu
+extra_css:
+  - stylesheets/extra.css
+extra:
+  homepage: https://www.matrixorigin.cn
+  version:
+    provider: mike
+
+nav:
+  - MatrixOne:
+    - Home: README.md
+    - Overview: 
+      - MatrixOne Introduction: MatrixOne/Overview/matrixone-introduction.md
+      - MatrixOne Architecture: MatrixOne/Overview/matrixone-architecture.md
+      - MySQL Compatibility: MatrixOne/Overview/mysql-compatibility.md
+      - What's New: MatrixOne/Overview/what's-new.md
+    - Get Started: 
+      - Install Standalone MatrixOne: MatrixOne/Get-Started/install-standalone-matrixone.md
+      - Install and configure distributed MatrixOne: MatrixOne/Get-Started/install-distributed-matrixone.md
+      - Connect to MatrixOne Server: MatrixOne/Get-Started/connect-to-matrixone-server.md
+      - Tutorial:
+        - SSB Test with MatrixOne: MatrixOne/Get-Started/Tutorial/SSB-test-with-matrixone.md
+      - Playground: MatrixOne/Get-Started/Playground.md
+    - Reference:
+      - SQL Reference: 
+        - DDL:
+          - CREATE DATABASE: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/create-database.md
+          - CREATE TABLE: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/create-table.md
+          - DROP DATABASE: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/drop-database.md
+          - DROP TABLE: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/drop-table.md
+          - CREATE INDEX: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/create-index.md
+          - DROP INDEX: MatrixOne/Reference/SQL-Reference/Data-Definition-Statements/drop-index.md
+        - DML:
+          - INSERT: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/insert.md
+          - LOAD DATA: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/load-data.md
+          - SELECT: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/select.md
+          - SHOW DATABASES: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/show-databases.md
+          - SHOW TABLES: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/show-tables.md
+          - USE: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/use.md
+          - LIKE: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/like.md
+          - CAST: MatrixOne/Reference/SQL-Reference/Data-Manipulation-Statements/cast.md
+        - Aggregate Functions:
+          - AVG: MatrixOne/Reference/SQL-Reference/Aggregate-Functions/avg.md
+          - COUNT: MatrixOne/Reference/SQL-Reference/Aggregate-Functions/count.md
+          - MAX: MatrixOne/Reference/SQL-Reference/Aggregate-Functions/max.md
+          - MIN: MatrixOne/Reference/SQL-Reference/Aggregate-Functions/min.md
+          - SUM: MatrixOne/Reference/SQL-Reference/Aggregate-Functions/sum.md
+        - Data Types: MatrixOne/Reference/SQL-Reference/data-types.md
+      - Configuration Settings: MatrixOne/Reference/configuration-settings.md
+    - FAQs:
+      - General FAQs: MatrixOne/FAQs/general-faqs.md
+    - Release Notes:
+      - v0.1.0: MatrixOne/Release-Notes/v0.1.0.md
+      - v0.2.0: MatrixOne/Release-Notes/v0.2.0.md

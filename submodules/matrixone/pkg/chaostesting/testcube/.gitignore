@@ -1,0 +1,7 @@
+/testcube
+/config.xml
+/*.profile
+/node-*.log
+/porcupine-log
+/scope.dot
+/scope.svg
