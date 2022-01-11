@@ -4,6 +4,9 @@ repo_url: https://github.com/matrixorigin/matrixone
 theme:
   name: material
   logo: assets/logo.png
+  icon:
+    admonition:
+      note: octicons/tag-16  
   features:
     - navigation.instant  
     - navigation.tracking
@@ -19,7 +22,10 @@ extra:
   homepage: https://www.matrixorigin.cn
   version:
     provider: mike
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - MatrixOne:
     - Home: README.md
